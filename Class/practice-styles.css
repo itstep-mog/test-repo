@@ -1,0 +1,39 @@
+.card {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-image: url(https://basetop.ru/wp-content/uploads/2021/02/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-wrapper {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.text {
+    font-size: 38px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    color: black;
+}
